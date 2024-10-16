@@ -1,4 +1,4 @@
-@import url(../sstyle/style.css);
+@import "/style/sstyle/style.css";
 * {
   box-sizing: border-box;
   padding: 0;
