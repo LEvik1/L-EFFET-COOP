@@ -53,14 +53,43 @@ header {
 
 main{
     @include dis(flex,center,center,column);
-    
+    .svt_show {
+        display: flex;
+    }
+    .Svetlana {
+        background-color: rgb(0, 0, 0);
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        margin: 500px 0 0 1100px;
+        @include dis(none,space-between,center,column);
+        .i_sv {
+            width: 400px;
+            height: 200px;
+        }
+        .i_sv:hover {
+            width: 410px;
+            height: 205px;
+        }
+        .p_sv {
+            @include a(Athletics,30px,400,none,wheat);
+            
+        }
+        .p_sv:hover {
+            @include a(Athletics,35px,800,none,rgb(236, 198, 129));
+        }
+        .p_sv2 {
+            @include a(Athletics,20px,400,none,wheat);
+            margin-bottom: 20px;
+        }
+        .p_sv2:hover {
+            @include a(Athletics,25px,800,underline,rgb(236, 198, 129));
+        }
+    }
     .sec_1{
         @include dis(flex,start,start,row);
         width: 100%;
         
-
-
-
         .sec2_show {
             transition: 0.3s all;
             @include dis(flex,space-between,center,column);
@@ -71,13 +100,6 @@ main{
                 display: none !important;
                 transition: 0.3s all;
             }
-
-
-
-
-
-
-
         .sec1 {
             transition: 0.3s all;
             width: 1152px;
