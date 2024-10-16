@@ -1,4 +1,4 @@
-@import "/style/sstyle/style.css";
+@import 'style.css';
 @mixin dis($dis,$jus,$ali,$dir){
     display: $dis;
     justify-content: $jus;
